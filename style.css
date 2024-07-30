@@ -1,0 +1,76 @@
+/*
+Theme Name: Coming Real Soon 
+Author: Chris McCoy
+Description: Place holder for website
+Version: 1.0
+*/
+
+body {
+	color: #333;
+	background: #fff;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	height: 95%;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+p {
+	color: #555;
+	font-weight: 300;
+	letter-spacing: 5px;
+	margin-top: 40px;
+}
+
+#wrapper {
+	left: 50%;
+	width: 75%;
+	position: absolute;
+	top: 40%;
+	transform: translate(-50%, -50%);
+}
+
+#wrapper h1, #wrapper h2 {
+	display: block;
+	margin: 0 auto;
+}
+
+#wrapper h1 {
+	margin-bottom: 10px;
+}
+
+#wrapper h2 {
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: .5px;
+}
+
+@media only screen and (min-width: 601px) {
+	#wrapper {
+		top: 35%;
+		width: 65%;
+	}
+	#wrapper h1 {
+		font-size: 36px;
+	}
+	#wrapper h2 {
+		font-size: 20px;
+	}	
+	p {
+		margin-top: 50px;
+	}	
+}
+
+@media only screen and (min-width: 993px) {
+	#wrapper h1 {
+		font-size: 48px;
+	}
+	#wrapper h2 {
+		font-size: 32px;
+	}
+	p {
+		margin-top: 60px;
+	}	
+}
+
